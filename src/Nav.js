@@ -14,20 +14,20 @@ import './Nav.css';
 
 const Nav = () => {
   return (
-    <div className='Nav'>
+    <div className='left'>
       <div className="left-head">
-        <a href="#Dashboard"><DashboardIcon /> Dashboard </a>
+        <a href="#Dashboard"><DashboardIcon style={{ fontSize: '50px'  }} /> <p>Dashboard </p></a>
       </div>
       <div className="left-body">
-        <a href="#Home"><HomeIcon /> Home </a>
-        <a href="#Profile"> <PersonIcon /> Profile </a>
-        <a href="#Messages"> <ModeCommentIcon />Messages</a>
-        <a href="#Histoy"> <AccessTimeIcon /> Histoy </a>
-        <a href="#Task"> <PlaylistAddCheckIcon /> Task</a>
-        <a href="#Communities"> <GroupsIcon /> Communities</a>
-        <a href="#Settings"> <SettingsIcon />Settings</a>
-        <a href="#Support"> <HeadsetMicIcon />  Support</a>
-        <a href="#Privacy"> <VerifiedUserIcon /> Privacy</a>
+        <a href="#Home"><HomeIcon /> <p>Home </p></a>
+        <a href="#Profile"> <PersonIcon /> <p>Profile</p> </a>
+        <a href="#Messages"> <ModeCommentIcon /><p>Messages</p></a>
+        <a href="#Histoy"> <AccessTimeIcon /> <p>Histoy </p></a>
+        <a href="#Task"> <PlaylistAddCheckIcon /> <p>Task</p></a>
+        <a href="#Communities"> <GroupsIcon /> <p>Communities</p></a>
+        <a href="#Settings"> <SettingsIcon /><p>Settings</p></a>
+        <a href="#Support"> <HeadsetMicIcon />  <p>Support</p></a>
+        <a href="#Privacy"> <VerifiedUserIcon /> <p>Privacy</p></a>
       </div>
     </div >
   )
