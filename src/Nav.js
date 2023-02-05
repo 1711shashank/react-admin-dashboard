@@ -15,20 +15,16 @@ import './Nav.css';
 const Nav = () => {
   return (
     <div className='left'>
-      <div className="left-head">
-        <a href="#Dashboard"><DashboardIcon style={{ fontSize: '50px'  }} /> <p>Dashboard </p></a>
-      </div>
-      <div className="left-body">
-        <a href="#Home"><HomeIcon /> <p>Home </p></a>
-        <a href="#Profile"> <PersonIcon /> <p>Profile</p> </a>
-        <a href="#Messages"> <ModeCommentIcon /><p>Messages</p></a>
-        <a href="#Histoy"> <AccessTimeIcon /> <p>Histoy </p></a>
-        <a href="#Task"> <PlaylistAddCheckIcon /> <p>Task</p></a>
-        <a href="#Communities"> <GroupsIcon /> <p>Communities</p></a>
-        <a href="#Settings"> <SettingsIcon /><p>Settings</p></a>
-        <a href="#Support"> <HeadsetMicIcon />  <p>Support</p></a>
-        <a href="#Privacy"> <VerifiedUserIcon /> <p>Privacy</p></a>
-      </div>
+      <a href="#Dashboard"><DashboardIcon className='mui-icon dashboard-icon' /> <p>Dashboard </p></a>
+      <a href="#Home"><HomeIcon className='mui-icon' size="small" /> <p>Home </p></a>
+      <a href="#Profile"> <PersonIcon className='mui-icon'/> <p>Profile</p> </a>
+      <a href="#Messages"> <ModeCommentIcon className='mui-icon'/><p>Messages</p></a>
+      <a href="#Histoy"> <AccessTimeIcon className='mui-icon'/> <p>History </p></a>
+      <a href="#Task"> <PlaylistAddCheckIcon className='mui-icon'/> <p>Task</p></a>
+      <a href="#Communities"> <GroupsIcon className='mui-icon'/> <p>Communities</p></a>
+      <a href="#Settings"> <SettingsIcon className='mui-icon'/><p>Settings</p></a>
+      <a href="#Support"> <HeadsetMicIcon className='mui-icon'/>  <p>Support</p></a>
+      <a href="#Privacy"> <VerifiedUserIcon className='mui-icon'/> <p>Privacy</p></a>
     </div >
   )
 }
