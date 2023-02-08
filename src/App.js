@@ -1,12 +1,12 @@
 import './App.css';
 import Nav from './Nav';
-import MainBody from './MainBody';
+import Body from './Body';
 
 function App() {
   return (
     <div className="App">
-      <Nav/>
-      <MainBody/>
+      {/* <Nav/> */}
+      <Body/>
       
       
     </div>
