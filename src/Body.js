@@ -20,6 +20,7 @@ function Body() {
       </div>
       <div className='body-right'>
         <div className='announcements'>
+        
           <p className='announcements-heading'>Announcements</p>
           <div className='announcements-card'>
             <p className='announcements-card-heading'>Site Maintenance</p>

@@ -1,0 +1,32 @@
+.projectBox{
+    border-left: 0.5em solid #FACC14;
+    width: 90%;
+    height: auto; 
+    background-color: #FFFFFF;
+    border-radius:0.7rem;
+    padding: 1.5rem 0 0 2rem;
+    margin: 1rem 1rem 0 1rem;
+    box-shadow: 5px 5px 5px -5px gray;
+    display: flex;
+    flex-direction: column;
+
+}
+.heading{
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: left;
+}
+.description{
+    font-size: 1rem;
+    color: #7f7f7f;
+    margin-top: 0.3rem;
+    padding-right: 0.8rem;
+    text-align: left;
+}
+.links{
+    display: flex;
+    justify-content: flex-end;
+}
+.links > * {
+    margin: 1rem;
+}
