@@ -1,3 +1,5 @@
+
+
 .mainBody{
     background-color: #E2E8F0;
 }
@@ -5,16 +7,26 @@
 hr{
     margin: 1rem 0;
 }
+.header{
+    position: fixed;
 
+}
+
+.body-container{
+    /* position: relative; */
+    background-color: #E2E8F0;
+}
 
 /* Body Left */
-/* .body-left{
+.body-left{
     display: flex;
     flex-direction: column;
-} */
+    justify-content: space-evenly;
+}
 
 .project-heading{
-    text-align: center;
+    text-align: left;
+    margin: 0 0 1rem 4rem;
     font-size: 1.1rem;
     font-weight: 500;
     padding: 1rem 0 0 1rem;
@@ -22,7 +34,7 @@ hr{
 .project-body{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 /* Body Right */
@@ -30,7 +42,7 @@ hr{
     margin: 1rem;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: flex-start;
 
 }
 
@@ -47,7 +59,7 @@ hr{
 }
 
 .announcements-card{
-    width: 90%;
+    width: 100%;
     height: auto;
     padding: 1rem;
     text-align: left;
@@ -83,7 +95,7 @@ hr{
 
 
 .trending-card{
-    width: 90%;
+    width: 100%;
     height: auto;
     padding: 1rem;
     text-align: left;
@@ -99,5 +111,24 @@ hr{
 
 .trending-name{
     color: gray;
+}
+
+@media screen and (min-width: 760px) {
+    .body-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .body-left{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+    .body-right{
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+    }
+    
 }
  

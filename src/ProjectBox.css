@@ -1,17 +1,18 @@
 .projectBox{
     border-left: 0.5em solid #FACC14;
-    width: 90%;
+    width: max(40%, 230px);
     height: auto; 
     background-color: #FFFFFF;
     border-radius:0.7rem;
     padding: 1.5rem 0 0 2rem;
-    margin: 1rem 1rem 0 1rem;
+    margin-bottom: 1rem;
     box-shadow: 5px 5px 5px -5px gray;
     display: flex;
     flex-direction: column;
 
 }
 .heading{
+    
     font-size: 1.2rem;
     font-weight: 600;
     text-align: left;

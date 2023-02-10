@@ -1,5 +1,4 @@
 import React from 'react'
-import SearchIcon from '@mui/icons-material/Search';
 import NotificationsActiveOutlinedIcon from '@mui/icons-material/NotificationsActiveOutlined';
 import MoreVertOutlinedIcon from '@mui/icons-material/MoreVertOutlined';
 import './Header.css'
