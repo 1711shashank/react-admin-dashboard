@@ -1,34 +1,15 @@
 
-.header{
+.header-container{
     background-color: #FFFFFF;
-    width: 100vw; 
-    /* display: block;   */
-}
-.header-up{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0.8rem;
-}
-.header-up input{
-    width: max(8rem,85%);
-    border: none;
-    border-radius: 2rem;
-    height: 2rem;
-    margin: 0 1rem;
-    background-color: #E2E8F0;
-
-}
-
-.header-down{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 0 0.8rem 0.8rem 0.8rem;
+    padding: 0.8rem;
 }
-.header-down-left{
+.header-left{
     display: flex;
+
 }
 img{
     border-radius: 50%;
@@ -39,7 +20,7 @@ span{
     /* background-color: red; */
     flex-wrap: nowrap;
 }
-.header-down-leftText{
+.header-leftText{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -51,7 +32,7 @@ span{
     font-weight: 600;
     font-size: 1.2rem;
 }
-.header-down-right{
+.header-right{
     /* background-color: black; */
     width: auto;
     display: flex;
@@ -59,7 +40,7 @@ span{
     justify-content: space-evenly;
     margin-top: 1rem;
 }
-.header-down-right > *{
+.header-right > *{
 
     background-color: #1992D3;
     border: none;

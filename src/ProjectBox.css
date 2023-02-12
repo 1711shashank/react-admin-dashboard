@@ -1,11 +1,11 @@
 .projectBox{
     border-left: 0.5em solid #FACC14;
-    width: max(40%, 230px);
+    width: 100%;
     height: auto; 
     background-color: #FFFFFF;
     border-radius:0.7rem;
     padding: 1.5rem 0 0 2rem;
-    margin-bottom: 1rem;
+    margin: 0 1rem 1rem 1rem;
     box-shadow: 5px 5px 5px -5px gray;
     display: flex;
     flex-direction: column;
@@ -30,4 +30,12 @@
 }
 .links > * {
     margin: 1rem;
+}
+
+
+@media screen and (min-width: 760px) {
+    .projectBox{
+        width: 42%;
+    }
+
 }
